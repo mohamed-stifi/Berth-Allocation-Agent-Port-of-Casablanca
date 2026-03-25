@@ -1,0 +1,234 @@
+{
+  "port_of_casablanca": {
+    "general_info": {
+      "location": {
+        "latitude": "33° 36' 05\" North",
+        "longitude": "7° 36' 52\" West",
+        "coordinates": [
+          33.601395,
+          -7.61447
+        ]
+      },
+      "vocation": [
+        "Commerce",
+        "Pêche",
+        "Réparation navale",
+        "Plaisance",
+        "General Cargoes",
+        "Phosphates",
+        "Containers"
+      ],
+      "draft_range_m": {
+        "min": 7,
+        "max": 14
+      }
+    },
+    "terminals": [
+      {
+        "name": "East Container Terminal (Marsa Maroc)",
+        "type": "Container",
+        "operator": "Marsa Maroc",
+        "specifications": {
+          "area_ha": 60,
+          "quay_length_m": 600,
+          "depth_m": 12,
+          "equipment": [
+            "8 quay gantry cranes"
+          ],
+          "capacity": "700,000 TEU/year",
+          "other_features": [
+            "3000m of railway"
+          ]
+        },
+        "berths": [
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "80",
+          "81",
+          "82",
+          "83"
+        ]
+      },
+      {
+        "name": "Container Terminal (SOMAPORT)",
+        "type": "Container",
+        "operator": "SOMAPORT",
+        "specifications": {
+          "area_ha": 30,
+          "quay_length_m": 700,
+          "depth_m": 9.2,
+          "equipment": [
+            "3 quay gantry cranes",
+            "10 RTG (Rubber-Tired Gantry cranes)"
+          ],
+          "capacity": "300,000 TEU/year"
+        },
+        "berths": [
+          "50",
+          "51",
+          "52",
+          "53",
+          "54"
+        ]
+      },
+      {
+        "name": "OCP Phosphate Terminal",
+        "type": "Bulk (Phosphate)",
+        "operator": "OCP",
+        "specifications": {
+          "area_ha": 7,
+          "quay_length_m": 600,
+          "depth_m": 12,
+          "equipment": [
+            "4 quay gantry cranes for phosphates"
+          ],
+          "capacity": "10 MT/year"
+        },
+        "berths": [
+          "64",
+          "66"
+        ]
+      },
+      {
+        "name": "Mineral Terminal",
+        "type": "Bulk (Minerals)",
+        "operator": null,
+        "specifications": {
+          "area_ha": 10,
+          "quay_length_m": 700,
+          "depth_m": 10,
+          "equipment": [
+            "2 gantry cranes with grabs"
+          ],
+          "capacity": "2 MT/year"
+        },
+        "berths": [
+          "62",
+          "63"
+        ]
+      },
+      {
+        "name": "Main General Cargo Terminal",
+        "type": "General Cargo",
+        "operator": null,
+        "specifications": {
+          "area_ha": 30,
+          "quay_length_m": 1500,
+          "depth_m": "9 to 10",
+          "equipment": [
+            "38 quay cranes"
+          ],
+          "storage": "5 ha"
+        },
+        "berths": [
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36"
+        ]
+      },
+      {
+        "name": "Secondary General Cargo Terminal",
+        "type": "General Cargo",
+        "operator": null,
+        "specifications": {
+          "area_ha": 20,
+          "quay_length_m": 500,
+          "depth_m": 8,
+          "equipment": [
+            "3 mobile cranes"
+          ]
+        },
+        "berths": [
+          "22",
+          "23",
+          "24",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "T3",
+          "T4"
+        ]
+      },
+      {
+        "name": "Ro-Ro & Passenger Terminal",
+        "type": "Ro-Ro / Passenger",
+        "operator": null,
+        "specifications": {
+          "area_ha": 22,
+          "equipment": [
+            "3 unloading ramps (100T capacity each)"
+          ]
+        },
+        "berths": [
+          "A2",
+          "A5",
+          "T5",
+          "T6",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44"
+        ]
+      },
+      {
+        "name": "Car Carrier (Voiturier) Terminal",
+        "type": "Ro-Ro (Vehicles)",
+        "operator": null,
+        "specifications": {
+          "area_ground_m2": 20000,
+          "area_covered_m2": 75000,
+          "storage_capacity": "6000 units"
+        },
+        "berths": []
+      },
+      {
+        "name": "Silo Terminals (Cereals)",
+        "type": "Bulk (Grains)",
+        "operator": "SOSIPO & MASS CEREALES",
+        "specifications": {},
+        "berths": [
+          "20",
+          "21",
+          "60",
+          "61"
+        ]
+      }
+    ],
+    "berths_details": {
+      "T3": { "cargo_types": ["Wood", "Animal Feeds", "Salt"], "notes": "Lightning berth" },
+      "T4": { "cargo_types": ["Wood", "Animal Feeds", "Salt"], "notes": "Lightning berth" },
+      "T5": { "cargo_types": ["Passenger Ships", "Military Vessels", "Ro-Ro"], "notes": "Layby berth" },
+      "T6": { "cargo_types": ["Passenger Ships", "Military Vessels", "Ro-Ro"], "notes": "Layby berth" },
+      "R2": { "cargo_types": ["Big Bags", "Wood", "Animal Feed", "Scrap", "Vegetable Oil"] },
+      "R3": { "cargo_types": ["Big Bags", "Wood", "Animal Feed", "Scrap", "Vegetable Oil"] },
+      "R4": { "cargo_types": ["Big Bags", "Wood", "Animal Feed", "Scrap", "Vegetable Oil"] },
+      "R5": { "cargo_types": ["Big Bags", "Wood", "Animal Feed", "Scrap", "Vegetable Oil"] },
+      "20": { "cargo_types": ["Grains"], "notes": "Silo berth (SOSIPO)" },
+      "21": { "cargo_types": ["Grains"], "notes": "Silo berth (SOSIPO)" },
+      "22": { "cargo_types": ["Scrap", "Animal Feeds", "Wood"] },
+      "23": { "cargo_types": ["Scrap", "Animal Feeds", "Wood"] },
+      "24": { "cargo_types": ["Scrap", "Animal Feeds", "Wood"] },
+      "30_to_36": { "cargo_types": ["Wood", "Steel Products", "Grains", "Animal Feeds", "Sugar", "Big Bags", "Salt", "General Cargo"] },
+      "40_to_44": { "cargo_types": ["Passenger Ships", "Military Vessels", "Ro-Ro"], "notes": "Layby berth" },
+      "A2_to_A5": { "cargo_types": ["Ro-Ro"], "notes": "For vessels with an aft ramp" },
+      "50_to_54": { "cargo_types": ["Containers"], "notes": "Container Terminal (SOMAPORT)" },
+      "60": { "cargo_types": ["Grains"], "notes": "Silo berth (MASS CEREALES)" },
+      "61": { "cargo_types": ["Grains"], "notes": "Silo berth (MASS CEREALES)" },
+      "62": { "cargo_types": ["Coal", "Animal Feeds"] },
+      "63": { "cargo_types": ["Coal", "Animal Feeds"] },
+      "64": { "cargo_types": ["Fertilizers", "Phosphates"], "notes": "OCP terminal" },
+      "66": { "cargo_types": ["Fertilizers", "Phosphates"], "notes": "OCP terminal" },
+      "70_to_74": { "cargo_types": ["Containers", "Ro-Ro"], "notes": "Container terminal (MARSA MAROC)" },
+      "80_to_83": { "cargo_types": ["Containers"], "notes": "Container terminal (MARSA MAROC)" }
+    }
+  }
+}
